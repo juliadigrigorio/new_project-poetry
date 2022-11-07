@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-poetry-1"
+version = "0.1.0"
+description = ""
+authors = ["juliadigrigorio <juliadigrigorio@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "test_poetry_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.10.0"
+flake8 = "^5.0.4"
+selenium = "^4.6.0"
+pytest = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
